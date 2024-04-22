@@ -1,43 +1,59 @@
 ## Laboratory Practice 5
+
 ### High Performance Computing
 
-1. Design and implement Parallel Breadth First Search and Depth First Search based on existing
-algorithms using OpenMP. Use a Tree or an undirected graph for BFS and DFS .
+1. **Parallel Breadth First Search (BFS) and Depth First Search (DFS)**
 
-2. Write a program to implement Parallel Bubble Sort and Merge sort using OpenMP. Use
-existing algorithms and measure the performance of sequential and parallel algorithms.
+   - **Objective:** Design and implement parallel BFS and DFS algorithms using OpenMP.
+   - **Approach:** Utilize existing BFS and DFS algorithms adapted for parallel execution.
+   - **Data Structure:** Choose a tree or an undirected graph for BFS and DFS operations.
 
-3. Implement Min, Max, Sum and Average operations using Parallel Reduction.
-4. Write a CUDA Program for :
-1. Addition of two large vectors
-2. Matrix Multiplication using CUDA C
+2. **Parallel Bubble Sort and Merge Sort**
+
+   - **Objective:** Write programs to implement parallel versions of Bubble Sort and Merge Sort using OpenMP.
+   - **Approach:** Implement parallel versions based on existing sequential algorithms.
+   - **Performance Measurement:** Measure the performance of sequential and parallel algorithms.
+
+3. **Parallel Reduction Operations**
+
+   - **Objective:** Implement parallel versions of Min, Max, Sum, and Average operations using reduction techniques.
+   - **Approach:** Utilize parallel reduction algorithms to efficiently compute these operations.
+
+4. **CUDA Programming**
+
+   - **Objective:** Write CUDA programs for:
+     1. Addition of two large vectors.
+     2. Matrix multiplication using CUDA C.
 
 ### Deep Learning
 
-1. Linear regression by using Deep Neural network: Implement Boston housing price 
-predictionproblem by Linear regression using Deep Neural network. Use Boston House price 
-predictiondataset.
-Dataset Link- 
+1. **Linear Regression using Deep Neural Network**
 
-2. Classification using Deep neural network (Any One from the following)
+   - **Objective:** Implement linear regression using a deep neural network for Boston housing price prediction.
+   - **Dataset:** Boston House Price Prediction Dataset.
 
-1. Multiclass classification using Deep Neural Networks: Example: Use the OCR letter 
-recognition
- Dataset link: https://archive.ics.uci.edu/ml/datasets/letter+recognition
+2. **Classification using Deep Neural Network**
 
-2. Binary classification using Deep Neural Networks Example: Classify movie reviews into
-positive" reviews and "negative" reviews, just based on the text content of the reviews.
-Use IMDB dataset
- Dataset link: 
+   - **Multiclass Classification:**
+     - **Objective:** Perform multiclass classification using deep neural networks, e.g., OCR letter recognition.
+     - **Dataset:** Letter Recognition Dataset ([Dataset Link](https://archive.ics.uci.edu/ml/datasets/letter+recognition))
 
-3. Convolutional neural network (CNN) (Any One from the following)
-• Use any dataset of plant disease and design a plant disease detection system using CNN.
-   Dataset link:
-   
-• Use MNIST Fashion Dataset and create a classifier to classify fashion clothing into
-categories.
-   Dataset Link:
+   - **Binary Classification:**
+     - **Objective:** Classify movie reviews into "positive" and "negative" categories using text content.
+     - **Dataset:** IMDB Dataset ([Dataset Link](https://www.imdb.com/interfaces/))
 
-5. Recurrent neural network (RNN) Use the Google stock prices dataset and design a time 
-seriesanalysis and prediction system using RNN.
-   Dataset Link:
+3. **Convolutional Neural Network (CNN)**
+
+   - **Plant Disease Detection:**
+     - **Objective:** Design a plant disease detection system using CNN.
+     - **Dataset:** Plant Disease Dataset ([Dataset Link](https://www.kaggle.com/emmarex/plantdisease))
+
+   - **Fashion Classification:**
+     - **Objective:** Classify fashion clothing into categories using CNN.
+     - **Dataset:** MNIST Fashion Dataset ([Dataset Link](https://github.com/zalandoresearch/fashion-mnist))
+
+5. **Recurrent Neural Network (RNN)**
+
+   - **Time Series Analysis and Prediction:**
+     - **Objective:** Design a time series analysis and prediction system using RNN with Google stock prices dataset.
+     - **Dataset:** Google Stock Prices Dataset ([Dataset Link](https://finance.yahoo.com/quote/GOOG/history/))
