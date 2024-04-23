@@ -30,30 +30,30 @@
 1. **Linear Regression using Deep Neural Network**
 
    - **Objective:** Implement linear regression using a deep neural network for Boston housing price prediction.
-   - **Dataset:** Boston House Price Prediction Dataset.
+   - **Dataset:** Boston House Price Prediction Dataset.([Dataset Link](https://www.kaggle.com/datasets/altavish/boston-housing-dataset)]
 
 2. **Classification using Deep Neural Network**
 
    - **Multiclass Classification:**
      - **Objective:** Perform multiclass classification using deep neural networks, e.g., OCR letter recognition.
-     - **Dataset:** Letter Recognition Dataset ([Dataset Link](https://archive.ics.uci.edu/ml/datasets/letter+recognition))
+     - **Dataset:** Letter Recognition Dataset 
 
    - **Binary Classification:**
      - **Objective:** Classify movie reviews into "positive" and "negative" categories using text content.
-     - **Dataset:** IMDB Dataset ([Dataset Link](https://www.imdb.com/interfaces/))
+     - **Dataset:** IMDB Dataset
 
 3. **Convolutional Neural Network (CNN)**
 
    - **Plant Disease Detection:**
      - **Objective:** Design a plant disease detection system using CNN.
-     - **Dataset:** Plant Disease Dataset ([Dataset Link](https://www.kaggle.com/emmarex/plantdisease))
+     - **Dataset:** Plant Disease Dataset ([Dataset Link](https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset))
 
    - **Fashion Classification:**
      - **Objective:** Classify fashion clothing into categories using CNN.
-     - **Dataset:** MNIST Fashion Dataset ([Dataset Link](https://github.com/zalandoresearch/fashion-mnist))
+     - **Dataset:** MNIST Fashion Dataset 
 
 5. **Recurrent Neural Network (RNN)**
 
    - **Time Series Analysis and Prediction:**
      - **Objective:** Design a time series analysis and prediction system using RNN with Google stock prices dataset.
-     - **Dataset:** Google Stock Prices Dataset ([Dataset Link](https://finance.yahoo.com/quote/GOOG/history/))
+     - **Dataset:** Google Stock Prices Dataset
