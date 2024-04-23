@@ -1,0 +1,31 @@
+Sem 8 codes (HPC & DL)
+
+Installation commands of g++ and openmp-
+sudo apt-get install g++
+sudo apt-get install libomp.dev
+Steps-
+        Create file using command-
+          Cat > filename.cpp
+          Write code in terminal and press ctrl D to save the code
+        To compile file use command-
+          'g++ -o filename -fopenmp filename.cpp' or 'gcc file.c -lgomp -pthread -o out'
+        Run file using command-
+          ./filename
+
+CUDA Check :
+            nvcc --version
+             sudo apt install nvidia-cuda-toolkit
+                export PATH=/usr/local/cuda/bin:$PATH
+                export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+
+                g++ file.c -fopenmp -o out
+                ./out
+
+CUDA In colab :
+
+!nvcc --version
+!pip install git+https://github.com/afnan47/cuda.git
+!pip install git+https://github.com/afnan47/cuda.git
+%%writefile name.cu
+!nvcc name.cu -o name
+!./name
