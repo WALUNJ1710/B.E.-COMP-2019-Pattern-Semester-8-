@@ -1,0 +1,26 @@
+Assignment-1: Step-1 - Type in Terminal "g++ -o out -fopenmp -pthread -std=c++11 file.cpp"
+              Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-2: Step-1 - Type in Terminal "gcc file.c -lgomp -pthread -o out"
+              Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-3_min: Step-1 - Type in Terminal "g++ file.c -fopenmp -o out"
+                  Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-3_max: Step-1 - Type in Terminal "g++ file.c -fopenmp -o out"
+                  Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-3_sum: Step-1 - Type in Terminal "g++ file.c -fopenmp -o out"
+                  Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-3_avg: Step-1 - Type in Terminal "nvcc file.cu -o out"
+                  Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-4_1: Step-1 - Type in Terminal "g++ file.cpp -fopenmp -o out"
+                Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-4_2: Step-1 - Type in Terminal "g++ file.c -fopenmp -o out"
+                Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-6: Step-1 - Type in Terminal "mpiCC file.c -o out"
+              Step-2 - If file compiled with no errors then type "./out"
