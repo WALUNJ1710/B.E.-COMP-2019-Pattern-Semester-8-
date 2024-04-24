@@ -1,4 +1,4 @@
-## Laboratory Practice 5
+Laboratory Practice 5
 
 ### High Performance Computing
 
@@ -57,3 +57,6 @@
    - **Time Series Analysis and Prediction:**
      - **Objective:** Design a time series analysis and prediction system using RNN with Google stock prices dataset.
      - **Dataset:** Google Stock Prices Dataset
+
+*Note* - Uninstall command for cuda
+sudo apt-get remove nvidia-cuda-toolkit
